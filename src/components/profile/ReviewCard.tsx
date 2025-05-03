@@ -21,7 +21,7 @@ export const ReviewCard: React.FC<ReviewCardProps> = ({
     <div className="border border-[color:var(--Grey-1,#F2F2F2)] w-full overflow-hidden bg-white mt-2 pt-4 pb-[33px] px-[18px] rounded-lg border-solid max-md:max-w-full">
       <div className="z-10 flex flex-col items-stretch max-md:max-w-full">
         <div className="flex w-full flex-col items-stretch max-md:max-w-full">
-          <div className="flex items-center gap-2 text-base text-[#1A011E] tracking-[-0.32px] justify-center">
+          <div className="flex items-center gap-2 text-base text-[#1A011E] tracking-[-0.32px] justify-left">
             <img
               src={userImage}
               alt={username}
